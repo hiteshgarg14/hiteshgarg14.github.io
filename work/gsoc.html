@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GSoC 2017</title>
+
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../js/style.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+    <body>
+
+        <div class="section--light">
+            <header class="header">
+    <div class="container-fluid">
+        <div class="row center-sm">
+            <div class="col-xs-12 col-md-11">
+                <a href="../index.html">
+                    <h1 class="logo--small cursor">
+                        Hitesh<span class="logo__space">&nbsp;</span>Garg
+                    </h1>
+                </a>
+                <div class="navigation">
+                    <a class="navigation__link is-active" href="/about">about</a>
+<span class="navigation__divider"></span>
+<a class="navigation__link" href="https://github.com/hiteshgarg14">github</a>
+<span class="navigation__divider"></span>
+<a class="navigation__link" target="_blank" href="https://www.linkedin.com/in/hiteshgarg14">linkedIn</a>
+<span class="navigation__divider"></span>
+<a class="navigation__link" target="_blank" href="https://medium.com/@hiteshgarg14">blog</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        </div>
+
+        <main class="section section--light">
+            <div class="container-fluid">
+                <div class="row center-sm">
+                    <div class="col-xs-12 col-md-11">
+                        <div class="section__text-wrapper">
+                            <article class="article">
+    <div class="overview">
+        <h1>
+            <span>Worked / With / <a target="_blank" href="https://openstates.org/">Open States</a>/</span>
+            <br>
+            Google Summer of Code 2017
+        </h1>
+        <a href="#pupaization" class="tag">Pupa-ization</a>
+        <a href="#admintools" class="tag">Open Civic Data Admin Tools</a>
+		<a href="#technology" class="tag">technology</a>
+    </div>
+
+    <p>I’ve always been fascinated by the open-source software community, and wanted to contribute my skills to society and do something impactful. With that aim in my mind, I started using GitHub for my personal projects, learning a lot about <a target="_blank" href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a>. I also started fixing bugs in open-source projects, which taught me practical Git skills like branching and pull requests, and how to best contribute to these larger development efforts.</p>
+    <p>When Google announced the list of 201 mentoring organizations, I decided to focus on applying to Open States; it had a welcoming community and would help me hone my existing skills with Python and Django. In preparation, I started tackling outstanding GitHub issues with Open States scrapers, and <a target="_blank" href="https://github.com/openstates/meta/wiki/2017-Roadmap#pupa-ization" >converting them to pupa</a>.</p>
+    <p>After nights of hard work, I was excited to find out on May 4 that my application had been accepted! Especially since I was new to the open-source world (and had never before applied to GSoC), I feel very proud and would like to thank my mentors <a target="_blank" href="https://www.linkedin.com/in/mileswwatkins/" >Miles</a> sir and <a target="_blank" href="https://www.linkedin.com/in/jamesturk">James</a> sir for this opportunity and their guidance.</p>
+    <p>My Deliveries were: Designed and built new admin tools for the updated OCD structure and Pupa Conversion of Scrapers from Billy; fixed bugs and updated scrapers for different states. </p>
+
+    <h2 id="pupaization">Pupa-ization</h2>
+    <p>Open States was in the process of updating its infrastructure. I <a target="_blank" href="https://github.com/openstates/openstates/pulls?page=1&q=is%3Apr+is%3Aclosed+author%3Ahiteshgarg14+state%3Amerged&utf8=%E2%9C%93">helped</a> Organization in <a target="_blank" href="https://github.com/openstates/openstates/issues/1442">Pupa-ization</a> of Existing Scrapers and Fixing Bugs & Updating Scrapers For Different States</p>
+
+    <h2 id="admintools">Open Civic Data Admin Tools</h2>
+    <p>The new admin tools will identify the data quality issues in the database and allow Open States admins to know about the current status of quality of scrapers and to manually fix or modify the data quality issues or mark them as exceptions. These tools will also provide admin the right to consider the requests posted by the users to report any wrong or missing information on openstates.org.</p>
+    <p>This will supports Open Civic Data Backend with important features like,</p>
+	<ol>
+		<li>User Feedback Tool</li>
+		<li>Merge Tool</li>
+		<li>Name Resolution Tool</li>
+		<li>Retirement Tool</li>
+		<li>Data Quality Issues & Exceptions Tool</li>
+		<li>Common Status Page for all states containing current status of different parameters</li>
+		<li>Sub pages for the status of specific sessions/states etc.</li>
+		<li>Advanced filters to sort data accordingly</li>
+		<li>Fast search queries using Django-ORM</li>
+	</ol>
+
+
+    <h2 id="blogposts">Blog Posts</h2>
+    <ol>
+		<li><a target="_blank" href="https://blog.openstates.org/post/gsoc-2017-hitesh-intro/">Google Summer of Code - Improved Data Tools</a></li>
+		<li><a target="_blank" href="https://blog.openstates.org/post/gsoc-2017-hitesh-one-month/">Progress on the OCD Data Quality Tools</a></li>
+		<li><a target="_blank" href="https://blog.openstates.org/post/gsoc-2017-update-two/">Google Summer of Code - Data Quality Tools Update</a></li>
+		<li><a target="_blank" href="https://blog.openstates.org/google-summer-of-code-2017-final-update-cf5c14d80c51">Google Summer of Code 2017 Final Update</a></li>
+	</ol>
+	
+	<h2 id="technology">Technology Used</h2>
+	<a class="tag">python</a> <a class="tag">Django</a> <a class="tag">postgresql</a> <a class="tag">lxml</a> <a class="tag">scrapelib</a> <a class="tag">pupa</a> <a class="tag">git</a> <a class="tag">travis-ci</a> <a class="tag">javascript</a> <a class="tag">mdbootstrap</a>
+	
+    <h2 id="summary">Summary</h2>
+    <p>While I was working on my project I learned a lot of things like —  writing quality code and effectively testing the code. More importantly, I learned the importance of Continuous Integration and Unit Testing. So, GSoC really helped me in growing myself on my road to becoming a super cool programmer.</p>
+	<p>Related Links:
+		<ul>
+			<li><a target="_blank" href="https://summerofcode.withgoogle.com/projects/#6265883499429888">Official Project</a></li>
+			<li><a target="_blank" href="https://gist.github.com/hiteshgarg14/7a8bc91dbe700edc10f91d173bbc1bc4">Submitted Code</a></li>
+			<li><a target="_blank" href="https://github.com/openstates/admintools">Admin Tools Repository</a></li>
+		</ul>
+	</p>
+	
+	
+
+</article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+ <footer class="section--dark">
+    <div class="footer section section--dark">
+        <div class="container-fluid">
+            <div class="row center-sm">
+                <div class="col-xs-12 col-md-11">
+                    <div class="section__text-wrapper">
+                    <h1 class="section__heading cursor cursor--dark">Say hey</h1>
+                    <p>
+                        I&apos;m  <a class="link" href="http://twitter.com/14hiteshgarg">@14hiteshgarg</a>.
+                        Say hey at <a class="link" href="mailto:garg95hitesh@gmail.com">garg95hitesh@gmail.com</a>.
+                        You can find me pushing code to <a class="link" target="_blank" href="https://github.com/hiteshgarg14">github</a>,
+                        helping humans at <a class="link" target="_blank" href="https://www.codementor.io/hiteshgarg14">codementor</a>,
+                        and connecting with them on <a class="link" target="_blank" href="https://www.linkedin.com/in/hiteshgarg14">linkedIn</a>.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </body>
+
+</html>
